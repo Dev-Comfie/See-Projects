@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapsis.com/css?family=Ubuntudisplay=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    position: absolute;
+    font-family: poppins;
+    background-color: #E5E5E5;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 80px;
+}
+.logo{
+    width: 273px;
+    height: 54px;
+    left: 161px;
+    top: 103px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+}
+img{
+    left: 18.75%;
+    right: 18.75%;
+    top: 3.12%;
+    bottom: 25%;
+}
+nav{
+    width: 50%;
+    text-align: center;
+    margin-top: 29px;
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    margin-right: 29px;
+    display: inline;
+}
+nav ul li{
+    display: inline;
+    padding: 2px 5px;
+    margin: 0px 20px;
+}
+nav ul li a{
+    width: 72px;
+    height: 36px;
+    left: 0px;
+    line-height:2em;
+    top: 0px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #102D06;
+    border-radius: 25px;
+}
+a:active,a:hover{
+    background: #61E432;
+    transition: 0.5s;
+    padding: 0.5em 0.5em;
+}
+.signup{
+    background: #61E432;
+    border-radius: 5px;
+    padding: 2px 5px;
+    border: none;
+    width: 87px;
+    height: 32px;
+    left: 1216px;
+    top: 107px;
+    cursor: pointer;
+}
+.par1{
+    position: absolute;
+    width: 457px;
+    height: 38px;
+    left: 75px;
+    top: 241px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.par2{
+    position: absolute;
+    width: 621px;
+    height: 324px;
+    left: 75px;
+    top: 287px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+}
+.circle{
+    width: 200px;
+    height: 103px;
+    left: 165px;
+    top: 403px;
+    border-radius: 50%;
+    border: 3px solid #61E432;
+}
+.par3{
+    position: absolute;
+    width: 259px;
+    height: 38px;
+    left: 75px;
+    top: 620px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #102D06;
+}
+.ruler{
+    display: flex;
+}
+.pencil{
+    text-align: left;
+    justify-content: space-between;
+}
+.image2{
+    position: absolute;
+    width: 546px;
+    height: 546px;
+    left: 710px;
+    top: 230px;
+    float: right;
+}
+.start{
+    position: relative;
+    width: 185px;
+    height: 70px;
+    left: 75px;
+    top: 708px;
+    background: #61E432;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    color: black;
+}
+.xplore{
+    position: relative;
+    width: 185px;
+    height: 70px;
+    left: 120px;
+    top: 708px;
+    color: black;
+    background: #E5E5E5;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 2px solid black;
+    font-size: 20px;
+}
+.start:hover{
+    background-color: #5bfc20;
+    transition:.5s ;
+}
+.xplore:hover{
+    background-color:#5bfc20;
+    transition: .5s;
+}
+.book{
+    position: relative;
+    width: 193px;
+    height: 45px;
+    left: 75px;
+    top: 857px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #102D06;
+}
+.pen{
+    position: relative;
+    width: 292px;
+    height: 33px;
+    left: 75px;
+    top: 865px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+   color: #102D06;
+}
+.check{
+    position: relative;
+    width: 185px;
+    height: 70px;
+    left: 75px;
+    top: 890px;
+    background: #61E432;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+}
+.check:hover{
+    background-color:#5bfc20;
+    transition: .5s;
+}
+
+
+@media screen and (max-width:480px){
+    body{
+        width: 100%;
+    }
+    header{
+        color: chocolate;
+        justify-content: space-between;
+    }
+    .logo{
+        width: 100%;
+        
+    }
+}

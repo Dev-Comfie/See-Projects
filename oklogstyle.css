@@ -193,35 +193,42 @@ image{
     margin: 0, 0, 0, 2px;
 }
 .one{
-    width: 100%;
-    margin: auto;
-    padding: 50px;
+    padding-left: 40px 
 }
-.one img{
-    /* width: 100px; */
-    width: 100%;
+.one__img{
+   width: 559px;
+   height: 400px;
 }
 .four__images{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-auto-rows: 50vh 50vh;
 }
-.two img{
+.two{
+    padding-left: 40px;
+    padding-top: 7.5em;
+}
+.two__img{
     width: 250px;
+    height: 200px;
 }
 .four2__images{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-auto-rows: 50vh 50vh;
 }
-.seven img{
-    width: 250px;
-}
 .six{
-    width: 100%;
-    margin: auto;
-    padding-right: 50px;
+    padding-right: 40px;
 }
-.six img{
-    width: 100%;
+.six__img{
+    width: 250px;
+    height: 200px;
+}
+.seven{
+    padding-right: 40px;
+    padding-top: 1.5em;
+}
+.seven__img{
+    width: 559px;
+    height: 400px;
 }

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body{
+    background-image: url('Rectangle 1.png');
+    background-position: top left, bottom right;
+    font-family: Montserrat;
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+}
+/* for the left side of the page */
+
+.left-side{
+    background-image: url("Ellipse 2.png");
+    background-repeat: no-repeat;
+    width: 1163px;
+    height: 1163px;
+    top: -378px;
+    left: -755px;
+    object-fit: cover;
+}
+
+.img1{
+    margin-top: 20em;
+}
+
+h1{
+    padding-top: 3em;
+    padding-left: 5em;
+}
+
+/* for the right side of the page */
+
+.right-side{
+    
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+ul{
+    display: flex;
+    margin-left: 0;
+}
+
+li{
+    font-size: 16px;
+    padding: 12px 12px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.trolley{
+    width: 24px;
+}
